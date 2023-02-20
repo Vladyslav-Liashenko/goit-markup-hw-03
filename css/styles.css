@@ -25,14 +25,14 @@ header {
 }
 .nav_webstudio{
     margin-left: 132px;
-    display: inline-block;
+    display: flex;
     padding: 0px;
     width: 115px;
     height: 24px;
     text-decoration: none;
 }
 .nav_web {
-    display: inline-block;
+    display: flex;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -41,7 +41,7 @@ header {
     color: #4D5AE5;
 }
 .nav_studio {
-    display: inline-block;
+    display: flex;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -50,13 +50,13 @@ header {
     color: #2E2F42;
 }
 .container {
-display: block;
+display: flex;
 }
 nav {
-    display: inline-block;
+    display: flex;
 }
 .menu_nav {
-    display: inline-block;
+    display: flex;
     gap: 40px;
     font-weight: 500;
     font-size: 16px;
@@ -69,22 +69,20 @@ nav {
 }
 .studio_nav {
     float: left;
-    margin-right: 40px;
 }
 .portfolio_nav {
     float: left;
-    margin-right: 40px;
 }
 
 address {
-    display: inline-block;
+    display: flex;
 }
 .contact_date {
-    display: inline-block;
+    display: flex;
 }
 .email {
     margin-left: 332px; 
-    display: inline-block;
+    display: flex;
     top: 40px;
     font-style: normal;
     font-weight: 400;
@@ -94,7 +92,7 @@ address {
     color: #434455;
 }
 .tel {
-    display: inline-block;
+    display: flex;
     top: 40px;
     font-style: normal;
     font-weight: 400;
@@ -105,15 +103,13 @@ address {
     margin-left: 40px;
 }
 .hero_image {
+    margin: 0px;
     padding-top: 188px;
     width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
     background: #2E2F42;
 }
 h1 {
-    height: 120px;
+    margin: 0px;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -123,11 +119,11 @@ h1 {
     color: #FFFFFF;
 }
 .order {
-    margin: 20px 0px 0px 636px;
+    margin-top: 48px;
+    margin-left: 636px;
+    margin-bottom: 188px;
+    position: relative;
     width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 458px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -136,7 +132,7 @@ h1 {
     font-family: 'Roboto';
 }
 h3 {
-    margin-top: 0px;
+    margin: 0px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
@@ -156,6 +152,7 @@ p {
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin-top: 8px;
 }
 .margin_h3{
     font-style: normal;
@@ -167,7 +164,7 @@ p {
     flex: none;
     order: 0;
     flex-grow: 0;
-    padding-left: 15px;
+    margin-left: 15px;
 }
 .margin_p {
     font-style: normal;
@@ -179,7 +176,7 @@ p {
     flex: none;
     order: 0;
     flex-grow: 0;
-    padding-left: 15px;
+    margin-left: 15px;
 }
 .what {
     width: 350px;
@@ -205,13 +202,10 @@ p {
     width: 360px;
     height: 300px;    
     top: 1128px;
-    padding-right: 24px;
+    margin-right: 24px;
 }
-.team {
-    width: 264px;
-    height: 380px;
-    left: 156px;
-    top: 1780px;
+.section2 {
+    width: 1440px;
 }
 .section3 {
     margin: 0px;
@@ -222,11 +216,12 @@ p {
     background: #F4F4FD;
 }
 .section1 {
+    margin: 0;
     box-sizing: border-box;
     width: 1250px;
     height: 104px;
     margin-left: 120px;
-    padding-top: 120px;
+    margin-top: 120px;
 }
 .section_m {
     display: inline-block;
@@ -252,16 +247,19 @@ p {
     box-sizing: border-box;
     height: 104px;
     margin-left: 120px;
-    padding-top: 70px;
+    margin-top: 70px;
 }
 .teame_card {
     display: inline-block;
     width: 264px;
     height: 380px;
-    padding-right: 0px;
     margin-right: 24px;
     text-align: center;
     background-color: #FFFFFF;
+}
+.h3_ourteam {
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 .footer {
     width: 1440px;
@@ -276,6 +274,11 @@ p {
     left: 0px;
     top: 1764px;
     background: #2E2F42;
+}
+.web {
+    color: #4D5AE5;
+    font-size: 18px;
+    font-family: 'Raleway';
 }
 .studio_foot {
     font-family: 'Raleway';
@@ -295,7 +298,7 @@ p {
 }
 .foot_li {
     padding-top: 100px;
-    margin-left: 120px;
+    padding-left: 120px;
 }
 .filter {
     box-sizing: border-box;
