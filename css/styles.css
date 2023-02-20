@@ -194,7 +194,7 @@ p {
     color: #2E2F42;
 }
 .doing {
-    box-sizing: border-box;
+    display: flex;
     margin-left: 120px;
     margin-top: 72px;
 }
@@ -218,7 +218,7 @@ p {
 }
 .section1 {
     margin: 0;
-    box-sizing: border-box;
+    display: flex;
     width: 1250px;
     height: 104px;
     margin-left: 120px;
