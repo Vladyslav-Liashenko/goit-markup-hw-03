@@ -5,7 +5,8 @@ a {
 body {
     font-family: 'Roboto';
 }
-a:hover {
+a:hover
+a:focus {
     color: #4D5AE5;
 }
 li {
@@ -13,6 +14,7 @@ li {
 }
 ul {
     margin: 0px;
+    padding: 0;
 }
 header {
     padding: 24px ;
@@ -22,11 +24,11 @@ header {
 
 }
 .nav_webstudio{
+    margin-left: 132px;
     display: inline-block;
     padding: 0px;
     width: 115px;
     height: 24px;
-    margin-left: 156px;
     text-decoration: none;
 }
 .nav_web {
@@ -47,8 +49,11 @@ header {
     line-height: 1.5;
     color: #2E2F42;
 }
-nav{
-display: inline-block;
+.container {
+display: block;
+}
+nav {
+    display: inline-block;
 }
 .menu_nav {
     display: inline-block;
@@ -58,7 +63,7 @@ display: inline-block;
     line-height: 1.5;
     width: 261px;
     height: 24px;
-    left: 347px;
+    margin-left: 76px;
     top: 24px;
     color: #2E2F42;
 }
@@ -78,7 +83,7 @@ address {
     display: inline-block;
 }
 .email {
-    margin-left: 322px;
+    margin-left: 332px; 
     display: inline-block;
     top: 40px;
     font-style: normal;
@@ -326,7 +331,8 @@ button {
     border-radius: 4px;
     font-family: 'Roboto';
 }
-button:hover {
+button:hover
+button:focus {
     border: 0;
     padding: 0%;
     background: #404BBF;
