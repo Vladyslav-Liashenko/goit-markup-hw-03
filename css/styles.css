@@ -235,7 +235,7 @@ p {
     margin-top: 70px;
 }
 .teame_card {
-    display: inline-block
+    display: inline-block;
     height: 380px;
     text-align: center;
     background-color: #FFFFFF;
@@ -245,15 +245,7 @@ p {
     margin-bottom: 8px;
 }
 .footer {
-    padding-top: 100px ;
-    padding-left: 156px;
-    padding-bottom: 100px;
-    background: #2E2F42;
-}
-.footer1 {
-    padding-top: 100px;
-    padding-left: 156px;
-    padding-bottom: 100px;
+    padding: 100px 1020px 100px 156px;
     background: #2E2F42;
 }
 .web {
@@ -274,8 +266,6 @@ p {
 }
 .foot_d {
     color: #e7e9fc;
-    width: 264px;
-    height: 72px;
 }
 .container_filter {
     padding: 96px 472px 0px 472px;
