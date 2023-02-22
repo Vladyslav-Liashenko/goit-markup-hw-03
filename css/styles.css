@@ -17,11 +17,6 @@ ul {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
-header {
-    padding: 24px 156px;
-    box-sizing: border-box;
-    border-bottom: 1px solid #E7E9FC;
-}
 .nav {
     display: flex;
 }
@@ -43,11 +38,11 @@ header {
     font-size: 18px;
     color: #2E2F42;
 }
-.container {
-display: flex;
-}
-nav {
+.container_header {
     display: flex;
+    padding: 24px 156px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E7E9FC;
 }
 .menu_nav {
     display: flex;
@@ -63,16 +58,11 @@ nav {
 .portfolio_nav {
     float: left;
 }
-
-address {
-    display: flex;
-}
 .contact_date {
     display: flex;
 }
 .email {
     margin-left: 332px;
-    display: flex;
     top: 40px;
     font-style: normal;
     font-weight: 400;
@@ -82,7 +72,6 @@ address {
     color: #434455;
 }
 .tel {
-    display: flex;
     top: 40px;
     font-style: normal;
     font-weight: 400;
@@ -92,7 +81,7 @@ address {
     color: #434455;
     margin-left: 40px;
 }
-.hero_image {
+.conteiner_hero {
     margin: 0px;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -113,7 +102,6 @@ h1 {
 .order {
     margin-right: 0px;
     margin-top: 48px;
-    position: relative;
     width: 169px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -173,21 +161,15 @@ p {
 }
 .what {
     margin: 0px 0px;
-    height: 40px;
-    padding-left: 559px;
-    padding-right: 558px;
-    padding-top: 120px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
 }
 .doing {
-    display: flex;
-    padding: 72px 120px 120px 120px;
+    margin-top: 72px;
 }
 .box_img {
     display: inline-block;
@@ -196,14 +178,14 @@ p {
     top: 1128px;
     margin-right: 24px;
 }
-.section2 {
-    width: 1440px;
+.conteiner_section2 {
+    padding: 120px 120px;
 }
-.section3 {
+.conteiner_section3 {
     padding: 120px 156px;
     background: #F4F4FD;
 }
-.section1 {
+.conteiner_section1 {
     margin: 0;
     padding-left: 120px;
     padding-right: 120px;
@@ -278,9 +260,9 @@ p {
 }
 .container_img {
     padding: 72px 156px 120px 156px;
+    display: flex;
 }
 .all_img {
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
