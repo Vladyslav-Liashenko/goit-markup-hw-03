@@ -1,20 +1,41 @@
-a {
-    text-decoration: none;
-    color: #2E2F42;
+:root {
+    --background-color:#2E2F42;
+    --background-light-color: #F4F4FD;
+    --hover-link: #4D5AE5;
+    --border-bottom: #E7E9FC;
+    --p_text: #434455;
+    --fff: #FFFFFF;
 }
 body {
     margin: auto;
     font-family: 'Roboto', 'sans-serif';
 }
-a:hover {
-    color: #4D5AE5;
+.studio_nav,
+.portfolio_nav,
+.contacts_nav,
+.email,
+.tel {
+    text-decoration: none;
+    color: var(--background-color);
+}
+.studio_nav:hover, 
+.portfolio_nav:hover,
+.contacts_nav:hover,
+.email:hover,
+.tel:hover
+.studio_nav:focus,
+.portfolio_nav:focus,
+.contacts_nav:focus,
+.email:focus,
+.tel:focus {
+    color: var(--hover-link);
 }
 li {
     list-style-type: none;
 }
 ul {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    padding: 0px;
 }
 .nav {
     display: flex;
@@ -35,12 +56,12 @@ ul {
     font-family: 'Raleway';
     font-style: normal;
     font-size: 18px;
-    color: #2E2F42;
+    color: var(--background-color);
 }
 header {
     margin: auto;
     padding: 24px 0px 24px 0px;
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid var(--border-bottom);
 }
 .container_header {
     display: flex;
@@ -54,13 +75,7 @@ header {
     font-weight: 500;
     font-size: 16px;
     margin-left: 76px;
-    color: #2E2F42;
-}
-.studio_nav {
-    float: left;
-}
-.portfolio_nav {
-    float: left;
+    color: var(--background-color);
 }
 address {
     margin-left: auto;
@@ -74,7 +89,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--p_text);
 }
 .tel {
     font-style: normal;
@@ -82,19 +97,19 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(p_text);
     margin-left: 40px;
 }
 .hero_image {
     padding: 188px 0px;
-    background: #2E2F42;
+    background: var(--background-color);
 }
 .conteiner_hero {
     margin: auto;
     width: 496px;
     text-align: center;
 }
-h1 {
+.hero_h1 {
     text-decoration: none;
     margin: 0px;
     font-style: normal;
@@ -102,7 +117,7 @@ h1 {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--fff);
 }
 .order {
     margin-top: 48px;
@@ -111,28 +126,28 @@ h1 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: #4D5AE5;
-    color: #FFFFFF;
+    color: var(--fff);
     font-size: 16px;
     font-family: 'Roboto';
 }
-h3 {
+.section1_h3 {
     margin: 0px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--background-color);
     flex: none;
     order: 0;
     flex-grow: 0;
 }
-p {
+.section_p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--p_text);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -140,23 +155,25 @@ p {
     margin-bottom: 0px;
 }
 .margin_h3{
+    margin: 0px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--background-color);
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 .margin_p {
+    margin: 0px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--p_text);
     flex: none;
     order: 0;
 }
@@ -167,7 +184,7 @@ p {
     font-size: 36px;
     text-align: center;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--background-color);
 }
 .doing {
     box-sizing: border-box;
@@ -193,7 +210,7 @@ p {
 }
 .section3 {
     padding: 120px 0px 120px 0px;
-    background: #F4F4FD;
+    background: var(--background-light-color);
 }
 .conteiner_section3 {
     width: 1128px;
@@ -202,10 +219,9 @@ p {
 }
 .section1_ul {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 .section_m {
-    display: inline-block;
     width: 264px;
 }
 .our {
@@ -217,11 +233,17 @@ p {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--background-color);
 }
 .teame_card_d {
     padding: 32px 0px;
     margin: auto;
+}
+.h3_ourteam {
+    margin: 0px;
+}
+.p_ourteam {
+    margin-bottom: 0px;
 }
 .teame {
     display: flex;
@@ -229,18 +251,20 @@ p {
     margin-top: 70px;
 }
 .teame_card {
-    display: inline-block;
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: var(--fff);
 }
 .footer {
     padding: 100px 0px;
-    background: #2E2F42;
+    background: var(--background-color);
 }
 .container_footer {
     width: 1160px;
     padding: 0px 16px;
     margin: auto;
+}
+.footer_webstudio {
+    text-decoration: none;
 }
 .web {
     color: #4D5AE5;
@@ -256,7 +280,7 @@ p {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--background-light-color);
 }
 .foot_li {
     width: 1128px;
@@ -287,35 +311,30 @@ button {
     line-height: 1.5;
     padding: 12px 24px;
     color: #4D5AE5;
-    background: #F4F4FD;
+    background: var(--background-light-color);
     border-radius: 4px;
     font-family: 'Roboto';
 }
-button:hover {
+button:hover,
+button:focus {
     border: 0;
     padding: 0%;
     background: #404BBF;
-    color: #ffffff;
+    color: var(--fff);
     padding: 12px 24px;
     cursor: pointer;
     font-family: 'Roboto';
 }
 .position {
-    display: inline-block;
     font-style: normal;
     font-weight: 500;
     cursor: pointer;
     font-family: 'Roboto';
 }
-.section_card_portfolio {
-    padding: 72px 16px;
-}
-.container_img {
-    margin: auto;
-    width: 1160px;
-    display: flex;
-}
 .all_img {
+    width: 1128px;
+    padding: 72px 0px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
@@ -324,9 +343,9 @@ button:hover {
 .block_img_d {
     padding: 32px 16px;
     margin: auto;
-    border-left: 1px solid #E7E9FC;
-    border-right: 1px solid #E7E9FC;
-    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid var(--border-bottom);
+    border-right: 1px solid var(--border-bottom);
+    border-bottom: 1px solid var(--border-bottom);
 }
 .h1_delete {
     display: none;
