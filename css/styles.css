@@ -4,8 +4,7 @@ a {
 }
 body {
     margin: auto;
-    width: 1440px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'sans-serif';
 }
 a:hover {
     color: #4D5AE5;
@@ -100,7 +99,7 @@ h1 {
     margin: 0px;
     font-style: normal;
     font-size: 56px;
-    line-height: 1.5;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -171,9 +170,10 @@ p {
     color: #2E2F42;
 }
 .doing {
+    box-sizing: border-box;
     margin-top: 72px;
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 .section1 {
     padding: 120px 0px 0px 0px;
@@ -188,7 +188,7 @@ p {
 }
 .conteiner_section2 {
     margin: auto;
-    width: 1160px;
+    width: 1128px;
     padding: 0px 16px;
 }
 .section3 {
@@ -196,7 +196,7 @@ p {
     background: #F4F4FD;
 }
 .conteiner_section3 {
-    width: 1160px;
+    width: 1128px;
     padding: 0px 16px;
     margin: auto;
 }
@@ -225,7 +225,7 @@ p {
 }
 .teame {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
     margin-top: 70px;
 }
 .teame_card {
@@ -266,10 +266,11 @@ p {
     width: 264px;
     color: #e7e9fc;
 }
+.section_filter {
+    padding: 96px 16px 0px 16px;
+}
 .container_filter {
     margin: auto;
-    width: 586px;
-    padding: 96px 16px 0px 0px;
     box-sizing: border-box;
     color: #4D5AE5;
 }
@@ -306,19 +307,18 @@ button:hover {
     cursor: pointer;
     font-family: 'Roboto';
 }
+.section_card_portfolio {
+    padding: 72px 16px;
+}
 .container_img {
     margin: auto;
     width: 1160px;
-    padding: 0px 16px;
-    padding: 72px 0px 120px 0px;
     display: flex;
 }
 .all_img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    width: 1160px;
-    padding: 0px 16px;
     justify-content: center;
 }
 .block_img_d {
