@@ -244,7 +244,8 @@ address {
     margin: 0px;
 }
 .p_ourteam {
-    margin-bottom: 0px;
+    margin: 0px;
+    margin-top: 8px;
 }
 .teame {
     display: flex;
