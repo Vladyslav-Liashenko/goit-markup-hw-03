@@ -167,6 +167,7 @@ address {
     flex-grow: 0;
 }
 .margin_p {
+    margin: 0px;
     margin-top: 8px;
     font-style: normal;
     font-weight: 400;
