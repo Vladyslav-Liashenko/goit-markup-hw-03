@@ -289,6 +289,8 @@ address {
     margin: auto;
 }
 .foot_d {
+    margin: 0px;
+    margin-top: 16px;
     font-weight: 400;
     font-size: 16px;
     width: 264px;
