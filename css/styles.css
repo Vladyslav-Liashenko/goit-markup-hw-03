@@ -159,7 +159,7 @@ address {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--background-color);
     flex: none;
@@ -167,7 +167,7 @@ address {
     flex-grow: 0;
 }
 .margin_p {
-    margin: 0px;
+    margin-top: 8px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -287,14 +287,20 @@ address {
     margin: auto;
 }
 .foot_d {
+    font-weight: 400;
+    font-size: 16px;
     width: 264px;
-    color: #e7e9fc;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--border-bottom);
 }
 .section_filter {
-    padding: 96px 16px 0px 16px;
+    padding: 96px 16px 120px 16px;
 }
 .container_filter {
-    margin: auto;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 16px;
     box-sizing: border-box;
     color: #4D5AE5;
 }
@@ -331,10 +337,12 @@ button:focus {
     cursor: pointer;
     font-family: 'Roboto';
 }
+img {
+    display: block;
+}
 .all_img {
     width: 1128px;
-    padding: 72px 0px;
-    margin: auto;
+    margin-top: 72px;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
