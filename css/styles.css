@@ -38,6 +38,7 @@ ul {
     padding: 0px;
 }
 .nav {
+    align-items: center;
     display: flex;
 }
 .nav_webstudio{
@@ -134,7 +135,7 @@ address {
     margin: 0px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--background-color);
     flex: none;
@@ -188,7 +189,6 @@ address {
     color: var(--background-color);
 }
 .doing {
-    box-sizing: border-box;
     margin-top: 72px;
     display: flex;
     gap: 24px;
@@ -206,7 +206,7 @@ address {
 }
 .conteiner_section2 {
     margin: auto;
-    width: 1128px;
+    width: 1160px;
     padding: 0px 16px;
 }
 .section3 {
@@ -299,7 +299,7 @@ address {
     color: var(--border-bottom);
 }
 .section_filter {
-    padding: 96px 16px 120px 16px;
+    padding: 96px 0px 120px 0px;
 }
 .container_filter {
     width: 1160px;
